@@ -1,0 +1,754 @@
+
+  *{
+  	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body{
+  	height: 100%;
+  	min-height: 100%;
+  }
+
+  body{
+    font-family: Arial;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  	background-color: #4C2719;
+  }
+
+  header {
+    background-color: #333333;
+    opacity: 1;
+    position: fixed;
+    padding: 20px 10px;
+    height: 10vh;
+    width: 100%;
+    display: inline-block;
+    top: 0px;
+    z-index:1000;
+    border-bottom: 2px  black solid;
+  }
+
+
+  header:hover { opacity: 1; }
+
+  header img{
+    width: 20%;
+  }
+
+  header div {
+    display: inline-block;
+    right: 0%;
+    margin: 10px 10px;
+    padding-top: 30px;
+    padding-right: 10vh;
+    margin: 0 auto;
+    list-style: none;
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-size: 3vh;
+  }
+
+  header div a {
+    padding: 10px;
+    font-size: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background-color: #333333;
+  }
+  
+ header div a:hover{
+    opacity: 1;
+    text-decoration: none;
+  }
+
+  header div a.active {
+    background-color: #d34836;
+    color: white;
+    font-weight: bold;
+  }
+  .ecartmobile{
+  	padding-top:5vh;
+  }
+  .icon{
+  	display: none;
+  }
+
+
+	#maxime header { 
+		opacity: 1; 
+	}
+
+	#maxime h1{
+		font-size: 15vh;
+	}
+
+	#maxime section #debut{
+		background : #9F9C99;
+		padding : 10px;
+		width : 100%;
+		height: 100%;
+		margin : auto;
+		position: absolute;
+		top: 20; left: 0;
+		text-align: center;
+	}
+
+	#maxime #bg{
+		height: 100vh;
+		width: 100%;
+	}
+
+	#maxime section #fin{
+		background : #9F9C99;
+		padding : 10px;
+    		height: auto;
+    		width: 100%;
+		margin : auto;
+		position: absolute;
+		top: 20; 
+		text-align: center;
+	}
+
+	#maxime #conteneur_slider{
+		position: absolute;
+		top:35%;
+		width:100%;
+		height:400px;
+		z-index:1;
+		font-size:200%;
+		text-align : center;
+		color: rgb(214,178,91);
+	}
+
+	#maxime button {
+		width:50vh;
+		margin-top:5vh;
+		height:10%;
+		cursor:pointer;
+		text-transform:capitalize;
+		color: rgb(214,178,91);
+	}
+
+	#maxime button a {
+		text-decoration: none;
+		color: rgb(214,178,91);
+	}
+
+	#maxime .marquetexte {
+		text-decoration: none;
+		color: rgb(214,178,91);
+		font-size: 200%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#maxime .bouton {
+		border:none;
+		padding:6px 0 6px 0;
+		border-radius:8px;
+		background:#d34836;
+		font:bold 16px;
+		color:#fff;
+	}
+
+	#maxime .bouton:hover{ 
+		text-decoration:underline;
+	}
+
+	#maxime #marque{
+		color: rgb(214,178,91);
+		text-align: center;
+		font-size: 15vh;
+	}
+
+	#maxime .photomarque{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		padding: 10px;
+		height: auto;
+		width: 50%;
+	}
+
+	#maxime div.barre {
+    	position: static;
+		margin-left: auto;
+    	margin-right: auto;
+    	bottom: 0;
+    	width: 50%;
+    	height: 1vh;
+    	border-radius: 50%;
+    	line-height: 5vh;
+    	background-color: rgb(214,178,91);
+    	color: white;
+    	font-size: 0.8em;
+	}
+
+	#maxime #videomarque{
+		display:block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#maxime #marquedelasemaine{
+		border : 1px solid black;
+		border-radius : 15px;
+		background-color: #555555;
+    	height: auto;
+    	width: auto;
+		margin-left: 5%;
+		margin-right:5%;
+	}
+	#MaxFooter{
+		background-color: #333333;
+		border-top: black 1px solid;
+		padding: 2%;
+		text-align: center;
+		font-style: bold;
+		opacity: 1;
+		font-weight: normal;
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		color: white;
+		font-size: 1.2em;
+	}
+		
+	#romain footer{
+		background-color: #333333;
+		padding: 1%;
+		text-align: center;
+		border-top: double rgba(92, 51, 23, 0.9) 1em;
+	}
+
+	#romain .ecart{
+		padding-top:20vh;
+	}
+
+	#romain section{
+		margin: 10%;
+
+	}
+	#romain section article{
+		margin: 10% auto;
+		width: 85%;
+		color: white;
+		padding: 1% 2% 1% 2%;
+		background-color:rgba(170, 166, 157,0.8);
+		border:0.5px solid black;
+		position:relative;
+	}
+
+
+	#romain section article p {
+		display:inline-block;
+		vertical-align:top;
+		width:calc(100% - 250px);
+		text-align:justify;
+		
+	}
+	#romain section img {
+		filter:grayscale(100%);
+		position:absolute;
+		border:0.5em double black ;
+		
+	}
+	#romain .chocolatiers1 {
+		width:200px;
+		top: 55px;
+	    left: -50px;
+		
+	}
+
+	#romain article {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	#romain .textechocolatier1 {
+		margin-left:250px;
+	}
+	#romain .textechocolatier1 a {
+		margin-left:250px;
+		text-decoration:none;
+		color:black;
+	}
+
+	#romain .separator {
+		text-align:center;
+		height: 30px;
+	}
+	#romain .separator img {
+		left:calc(50% - 150px);
+	}
+	#romain .title {
+		text-decoration:underline;
+		font-size:1.5em;
+	}
+	#romain .link  {
+		color:black;
+		list-style: none;
+		text-align: center;
+	}
+	#romain .link1{
+		color: white;
+		font-weight: normal;
+	}
+	#romain .link2{
+		color: black;
+		font-weight: bold;
+	}
+	#romain .som{
+		text-align: center;
+		list-style-type: none;
+		list-style: none;
+		text-decoration: none;
+	}
+	#romain #titre {
+		text-align:center;
+		text-decoration:underline;
+		color: white;
+		font-size: 5em;
+	}
+	#romain #sommaire {
+		color:black;
+	}
+		
+
+	#Audrey section{
+		margin: 15% auto 10px auto;
+	}
+	#Audrey #ecartmobile{
+		padding-top:5vh;
+	}
+	#Audrey .ecart{
+		padding-top:10vh;	
+	}
+	#Audrey article{
+		margin: 2% auto auto auto;
+		width: 70%;
+		color: black;
+		padding: 1% 2% 1% 2%;
+	}
+	#Audrey .img1{
+		position: relative;
+		right: 10%;
+		float: left;
+		margin-right: 4%;
+		border: double #dc143c 1em;
+		background-color: white;
+	}
+	#Audrey .img2{
+		position: relative;
+		float: right;
+		left: 2%;
+		border: double #dc143c 1em;
+		background-color: white;
+	}
+	#Audrey .img3{
+		position: relative;
+		float: right;
+		left: 5%;
+		border: double #dc143c 1em;
+		background-color: white;
+		height: 100px;
+	}
+	#Audrey article p{
+		margin: auto;
+		font-size: 1.1em;
+		color: black;
+	}
+	#Audrey .intro{
+		background-color: white;
+		font-size: 2em;
+		padding: 2% 3% 2% 3%;
+		border: solid black;
+	}
+	#Audrey p img{
+		height: 200px;
+	}
+	#Audrey .art1{
+		background-color: white;
+		border: solid #dc143c;
+		position: relative;
+		top: -40px;
+		text-align: justify;
+	}
+	#Audrey .art2{
+		background-color: white;
+		border: solid #dc143c;
+		text-align: justify;
+	}
+	#Audrey article ul li a{
+		color: black;
+		text-decoration: none;
+	}
+	#Audrey article ul li a:hover{
+		text-decoration: underline;
+	}	
+	#Audrey #precolomb{
+		font-size: 1.3em;
+		text-decoration: underline;
+	}
+	#Audrey #premierscol{
+		font-size: 1.3em;
+		text-decoration: underline;
+	}
+	#Audrey #democrat{
+		font-size: 1.3em;
+		text-decoration: underline;
+	}
+	#Audrey .liste{
+		background-color: #dc143c;
+		border: double white 1em;
+		position: relative;
+		max-width: 60%;
+		left: 400px;
+		top: -60px;
+		z-index: 2;
+		font-size: 1.1em;
+		color: white;
+	}
+	#Audrey .liste a:hover{
+		color: black;
+		text-decoration: underline;
+	}
+	#Audrey section nav ul li a{
+		text-transform: none;
+		text-decoration: none;
+		color: white;
+	}
+	.AudreyFooter{
+		background-color: #333333;
+		padding: 2%;
+		text-align: center;
+		border-top: double rgba(92, 51, 23, 0.9) 1em;
+		color: white;
+	}
+	.AudreyFooter ul li{
+		list-style: none;
+		list-style-type: none;
+	}
+	.AudreyFooter a{
+		color: white;
+		text-decoration: none;
+		font-weight: normal;
+	}
+	#Loic .decal{
+		margin-top: 91px;
+		text-align: center;
+	}
+
+	#Loic .flogauche{
+		float: left;
+		border-radius: 50%;
+		margin-left: 1%;
+		border: solid #0c0336;
+		background-color: rgb(255, 255, 255);
+		padding : 1px 1px 1px 1px;
+
+	}
+
+	#Loic .loicp{
+		background-color: #6d3825;
+		
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-style: double;
+		margin-left: 2%;
+		margin-right: 0%;
+		height: 250px;
+		width: 98%;
+		
+	    color: black;
+	    border: solid #0c0336;
+		padding: 0% 0% 1% 2%;
+		border-radius: 15% ;
+		font-size: 150% ;
+		overflow: auto;
+	}
+
+	#Loic .navl{
+		background-color: #555555;
+		margin-left: 5%;
+		margin-right: 5%;
+		border-radius: 2%;
+	}
+
+	#Loic .flodroite{
+		float: right;
+		border-radius: 50%;
+		margin-right: 1%;
+		border: solid #0c0336;
+		background-color: rgb(255, 255, 255);
+		padding : 1px 1px 1px 1px;
+	}
+
+	#Loic .loicp2{
+		background-color: #6d3825;
+		
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-style: double;
+		margin-left: 0%;
+		margin-right: 2%;
+		height: 350px;
+		width: 98%;
+		
+	    color: black;
+	    border: solid #0c0336;
+		padding: 0% 2% 1% 0%;
+		border-radius: 15% ;
+		font-size : 150% ;
+		overflow: auto;
+		
+	}
+
+	#Loic .debut{
+		padding-top: 20px;
+	}
+
+	#Loic .centrel{
+	    text-align: center;
+	    text-decoration: underline ;
+		color:black ;
+		background-color: #750219;
+		margin: 0% 40% 0% 40% ;
+		border-style: solid;
+		border-color: #0c0336;
+		font-size : 100%;
+	
+	}
+
+	#Loic nav img{
+		height: 227px;
+	    width: 280px;
+	}
+
+	#Loic span{
+		text-decoration: underline;
+		font-weight: bold;
+		color: #0c0336;
+	}
+
+
+	#Loic .artlex{
+		background-color: #995a43;
+			
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border-style: double;
+			margin-left: 5%;
+			margin-right: 10%;
+			height: 200px;
+			width: 85%;
+			
+		    color: black;
+		    border: solid #36030e;
+			padding: 0% 2% 1% 0%;
+			 ;
+			font-size : 120% ;
+			overflow: auto;
+	}
+
+
+	#Loic .loicpf{
+		background-color: #6d5425;
+		
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-style: double;
+		margin-left: 0%;
+		margin-right: 0%;
+		height: 200px;
+		width: 100%;
+		
+		color: black;
+		border: solid #1f011a;
+		padding: 0% 5% 0% 0%;
+		border-radius: 15% ;
+		font-size: 130% ;
+		overflow: auto;
+	}
+
+	#Loic .menu{
+	float: left;
+	position: absolute;	
+	}
+
+	#Loic .ecart{
+	padding-top:5vh;
+	}
+
+	#Loic section{
+		margin: 10%;
+
+	}
+	#Loic section article{
+		margin: 10% auto;
+		width: 85%;
+		color: white;
+		padding: 1% 2% 1% 2%;
+		background-color:rgba(170, 166, 157,0.8);
+		border:0.5px solid black;
+		position:relative;
+	}
+
+
+	#Loic section article p {
+		display:inline-block;
+		vertical-align:top;
+		width:calc(100% - 250px);
+		text-align:justify;
+		
+	}
+	#Loic section img {
+		filter:grayscale(100%);
+		position:absolute;
+		border:0.5em double black ;
+		
+	}
+	#Loic .chocolatiers1 {
+		width:200px;
+		top: 55px;
+	    left: -50px;	
+	}
+		
+
+	#Loic .textechocolatier1 {
+		margin-left:250px;
+	}
+	#Loic .textechocolatier1 a {
+		margin-left:250px;
+		text-decoration:none;
+		color:black;
+	}
+
+	#Loic  .separator {
+		text-align:center;
+		height: 30px;
+	}
+	#Loic  .separator img {
+		left:calc(50% - 150px);
+	}
+	#Loic  .title {
+		text-decoration:underline;
+		font-size:1.5em;
+	}
+	#Loic a.link  {
+		text-decoration:underline;
+		color:black;
+		
+	}
+	#Loic #titre {
+		text-align:center;
+		text-decoration:underline;
+		font-weight:900;
+	}
+	#Loic #sommaire {
+		color:black;
+	}
+
+	#Loic #menu-accordeon {
+		padding:0;
+		margin:0;
+		list-style:none;
+		text-align: center;
+		width: 180px;
+	  }
+	 #Loic  #menu-accordeon ul {
+		padding:0;
+		margin:0;
+		list-style:none;
+		text-align: center;
+	  }
+	 #Loic  #menu-accordeon li {
+		background-color:#6d2a0b; 
+		background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+		background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+		border-radius: 6px;
+		margin-bottom:2px;
+		box-shadow: 3px 3px 3px rgb(153, 153, 153);
+		border:solid 1px #333A40;
+	  }
+	 #Loic  #menu-accordeon li li {
+		max-height:0;
+		overflow: hidden;
+		transition: all .5s;
+		border-radius:0;
+		background: #444;
+		box-shadow: none;
+		border:none;
+		margin:0;
+	  }
+	 #Loic  #menu-accordeon a {
+		display:block;
+		text-decoration: none;
+		color: #fff;
+		padding: 8px 0;
+		font-family: verdana;
+		font-size:1.2em
+	  }
+	#Loic   #menu-accordeon ul li a, #menu-accordeon li:hover li a {
+		font-size:1em
+	  }
+	#Loic   #menu-accordeon li:hover {
+		background: #729EBF;
+	  }
+	#Loic #menu-accordeon li li:hover {
+		background: #999;
+	  }
+	#Loic #menu-accordeon ul li:last-child {
+		border-radius: 0 0 6px 6px;
+		border:none;
+	  }
+	#Loic #menu-accordeon li:hover li {
+		max-height: 15em;
+	  }
+
+	#source{
+	 	color: white;
+	 	background-color: #4C2719;
+	 	padding-top: 6%;
+	 }
+	#source nav{
+		border: white double 1em;
+		text-align: justify;
+	}
+	#source ul li{
+		list-style: none;
+		list-style-type: none;
+		padding-top: 1.3%;
+		padding-left: 1%;
+	}
+	#source a{
+		color: white;
+		text-decoration: none;
+		font-weight: normal;
+	}
+	#source h1{
+		text-align: center;
+		text-decoration: underline;
+		font-size: 3em;
+		padding-bottom: 1%;
+	}
+	footer{
+		text-align: center;
+		font-style: bold;
+		padding: 3px;
+		background-color: #333333;
+		opacity: 1;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
